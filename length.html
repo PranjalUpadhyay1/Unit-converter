@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar">
+            <ul>
+                <li class="active"><a href="length.html">Length Converter</a></li>
+                <li><a href="area.html">Area Converter</a></li>
+                <li><a href="temp.html">Temperature Converter</a></li>
+                <li><a href="weight.html">Weight Converter</a></li>
+            </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Length Converter</h1>
+        <div class="inout">
+
+            <div class="input">
+                <input type="number" placeholder="0" id="input">
+                <select id="inputType">
+                    <option value="meter">Meter</option>
+                    <option value="miles">Miles</option>
+                    <option value="feat">Feat</option>
+                </select>
+            </div>
+            <span> = </span>
+            <div class="result">
+                <p id="result">0</p>
+                <select id="outputType">
+                    <option value="miles">Miles</option>
+                    <option value="meter">Meter</option>
+                    <option value="feat">Feat</option>
+                </select>
+            </div>
+        </div>
+            <button id="btn">Convert</button>
+    </div>
+    <script src="lenght.js"></script>
+</body>
+</html>
